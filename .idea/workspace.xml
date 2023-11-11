@@ -4,14 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b6543b5-e23f-481b-935f-a3b2651c6d03" name="Changes" comment=".gitignore">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="8b6543b5-e23f-481b-935f-a3b2651c6d03" name="Changes" comment="pomXML">
+      <change afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wellFitTechs/pages/ContactUs_Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wellFitTechs/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wellFitTechs/runner/CukesRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wellFitTechs/runner/FailedTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wellFitTechs/steps/ContactUs_StepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wellFitTechs/steps/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wellFitTechs/utility/BrowserUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wellFitTechs/utility/ConfigurationReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wellFitTechs/utility/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wellFitTechs/utility/WellFitAPI_Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ContactUs.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,7 +53,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Zeyad/IdeaProjects/WellFitTechs",
+    "last_opened_file_path": "C:/Users/Zeyad/IdeaProjects/WellFitTechs/src/test/java/com/wellFitTechs",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -46,6 +63,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Zeyad\IdeaProjects\WellFitTechs\src\test\java\com\wellFitTechs" />
+      <recent name="C:\Users\Zeyad\IdeaProjects\WellFitTechs\src\test\resources" />
       <recent name="C:\Users\Zeyad\IdeaProjects\WellFitTechs" />
     </key>
   </component>
@@ -57,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699692332940</updated>
-      <workItem from="1699692335748" duration="886000" />
+      <workItem from="1699692335748" duration="4500000" />
     </task>
     <task id="LOCAL-00001" summary=".gitignore">
       <created>1699692913959</created>
@@ -66,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699692913959</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="pomXML">
+      <created>1699693246139</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699693246139</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,6 +100,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=".gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value=".gitignore" />
+    <MESSAGE value="pomXML" />
+    <option name="LAST_COMMIT_MESSAGE" value="pomXML" />
   </component>
 </project>
