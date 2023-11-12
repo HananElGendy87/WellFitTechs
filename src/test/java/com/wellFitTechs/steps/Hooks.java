@@ -16,7 +16,7 @@ import java.time.Duration;
 
 public class Hooks {
 
-    @Before("@ui")
+    @Before
     public void setUp(){
         Driver.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         Driver.getDriver().manage().window().maximize();
@@ -24,7 +24,7 @@ public class Hooks {
 
     }
 
-    @After("@ui")
+    @After
     public void tearDown(Scenario scenario){
         if(scenario.isFailed()){
             final byte[] screenshot = ((TakesScreenshot) Driver.getDriver()).getScreenshotAs(OutputType.BYTES);

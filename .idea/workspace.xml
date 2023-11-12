@@ -4,19 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b6543b5-e23f-481b-935f-a3b2651c6d03" name="Changes" comment="pomXML">
-      <change afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/wellFitTechs/pages/ContactUs_Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/wellFitTechs/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/wellFitTechs/runner/CukesRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/wellFitTechs/runner/FailedTestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/wellFitTechs/steps/ContactUs_StepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/wellFitTechs/steps/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/wellFitTechs/utility/BrowserUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/wellFitTechs/utility/ConfigurationReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/wellFitTechs/utility/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/wellFitTechs/utility/WellFitAPI_Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ContactUs.feature" afterDir="false" />
+    <list default="true" id="8b6543b5-e23f-481b-935f-a3b2651c6d03" name="Changes" comment="PACKAGES">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wellFitTechs/utility/DB_Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wellFitTechs/pages/ContactUs_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wellFitTechs/pages/ContactUs_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wellFitTechs/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wellFitTechs/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wellFitTechs/runner/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wellFitTechs/runner/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wellFitTechs/runner/FailedTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wellFitTechs/runner/FailedTestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wellFitTechs/steps/ContactUs_StepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wellFitTechs/steps/ContactUs_StepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wellFitTechs/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wellFitTechs/steps/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ContactUs.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ContactUs.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +65,114 @@
       <recent name="C:\Users\Zeyad\IdeaProjects\WellFitTechs\src\test\resources" />
       <recent name="C:\Users\Zeyad\IdeaProjects\WellFitTechs" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wellFitTechs.utility" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CukesRunner">
+    <configuration name="Feature: ContactUs" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ContactUs.feature" />
+      <option name="GLUE" value="com.wellFitTechs.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="WellFitTechs" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: ContactUs" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: USer goes on contact us page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ContactUs.feature" />
+      <option name="GLUE" value="com.wellFitTechs.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="WellFitTechs" />
+      <option name="NAME_FILTER" value="^USer goes on contact us page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^USer goes on contact us page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: USer goes on contact us page" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: USer submits info to contact WellFit" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ContactUs.feature" />
+      <option name="GLUE" value="com.wellFitTechs.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="WellFitTechs" />
+      <option name="NAME_FILTER" value="^USer submits info to contact WellFit$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^USer submits info to contact WellFit$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: USer submits info to contact WellFit" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: USer submits invalid phone number and email address in contact us form" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ContactUs.feature" />
+      <option name="GLUE" value="com.wellFitTechs.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="WellFitTechs" />
+      <option name="NAME_FILTER" value="^USer submits invalid phone number and email address in contact us form$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^USer submits invalid phone number and email address in contact us form$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: USer submits invalid phone number and email address in contact us form" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WellFitTechs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wellFitTechs.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wellFitTechs.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.wellFitTechs.runner.CukesRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="Cucumber Java.Scenario: USer submits invalid phone number and email address in contact us form" />
+        <item itemvalue="Cucumber Java.Feature: ContactUs" />
+        <item itemvalue="Cucumber Java.Scenario: USer submits info to contact WellFit" />
+        <item itemvalue="Cucumber Java.Scenario: USer goes on contact us page" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -76,7 +182,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699692332940</updated>
-      <workItem from="1699692335748" duration="4500000" />
+      <workItem from="1699692335748" duration="17290000" />
     </task>
     <task id="LOCAL-00001" summary=".gitignore">
       <created>1699692913959</created>
@@ -92,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699693246139</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="PACKAGES">
+      <created>1699697931836</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699697931836</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +214,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value=".gitignore" />
     <MESSAGE value="pomXML" />
-    <option name="LAST_COMMIT_MESSAGE" value="pomXML" />
+    <MESSAGE value="PACKAGES" />
+    <option name="LAST_COMMIT_MESSAGE" value="PACKAGES" />
   </component>
 </project>

@@ -12,13 +12,10 @@ public class HomePage {
     public HomePage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
+        @FindBy(xpath = "//a[@class='elementor-item'][1]")
+                public static WebElement contactUsModule;
 
-    @FindBy(xpath = "//a[@aria-label='Menu']")
-    public WebElement menuButton;
-
-
-    @FindBy( xpath = "//a[href='https://www.citi.com/banking/bank-accounts']")
-    public WebElement openAccountButton;
+    }
 
 
 
@@ -30,5 +27,3 @@ public class HomePage {
 
 
 
-
-}
