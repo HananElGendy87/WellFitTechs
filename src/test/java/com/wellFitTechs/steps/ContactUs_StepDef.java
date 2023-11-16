@@ -52,12 +52,11 @@ public class ContactUs_StepDef {
     }
 
     @Then("user selects {string} from the options")
-    public void userSelectsFromTheOptions(String checkBox) {
+    public void userSelectsFromTheOptions(String solutionChoice) {
         BrowserUtil.waitFor(5);
         ContactUs_Page.solutionChoice.click();
         BrowserUtil.waitFor(5);
     }
-
 
 
     @Then("user clicks send button")
@@ -70,6 +69,7 @@ public class ContactUs_StepDef {
 
         BrowserUtil.waitFor(5);
         ContactUs_Page.displayMessage.getText();
+        //Assert.assertTrue("SYSTEM DISPLAY ERROR MESSAGE", ContactUs_Page.displayMessage.isDisplayed());
 
         Assert.assertFalse("SUCCESS MESSAGE SHOULD NOT BE DISPLAYED" , ContactUs_Page.displayMessage.isDisplayed());
     }

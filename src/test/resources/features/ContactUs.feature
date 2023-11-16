@@ -1,8 +1,8 @@
-Feature: submitting information to contact us Module
+Feature: validating information submission in contact us Module
 
   Background: User is already on Contact Us page
 
-    Scenario: USer submits invalid phone number and email address in contact us form
+    Scenario: User submits invalid phone number and email address in contact us form
 
 
       Given user is on contact us page
