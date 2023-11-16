@@ -69,9 +69,7 @@ public class ContactUs_StepDef {
 
         BrowserUtil.waitFor(5);
         ContactUs_Page.displayMessage.getText();
-        //Assert.assertTrue("SYSTEM DISPLAY ERROR MESSAGE", ContactUs_Page.displayMessage.isDisplayed());
-
-        Assert.assertFalse("SUCCESS MESSAGE SHOULD NOT BE DISPLAYED" , ContactUs_Page.displayMessage.isDisplayed());
+        Assert.assertEquals("your submission failed because of an error", ContactUs_Page.displayMessage.getText());
     }
 
 

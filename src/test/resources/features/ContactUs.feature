@@ -1,4 +1,4 @@
-Feature: validating information submission in contact us Module
+Feature: Validating submission form information in contact us Module
 
   Background: User is already on Contact Us page
 

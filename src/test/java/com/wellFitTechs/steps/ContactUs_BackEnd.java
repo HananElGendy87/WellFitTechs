@@ -1,5 +1,6 @@
 package com.wellFitTechs.steps;
 
+import groovy.transform.stc.POJO;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
@@ -17,13 +18,13 @@ public class ContactUs_BackEnd {
 
     public class ContactUsApiTest1 {
 
-        private static final String BASE_URI = "https://your-api-base-uri.com";
+        private static final String BASE_URI = "https://wellfit.com";
 
         @Test
         public void ContactUsFormSubmissionTest1() throws IOException {
             String createCustomerEndpoint = "/createCustomer";
 
-            String jsonFilePath = "path/to/your/customer_data.json";
+            String jsonFilePath = "path/to/customer_data.json";
             String requestBody = new String(Files.readAllBytes(Paths.get(jsonFilePath)));
 
             String response = RestAssured.given()
@@ -33,8 +34,8 @@ public class ContactUs_BackEnd {
                     .when()
                     .post(createCustomerEndpoint)
                     .then()
-                    .statusCode(400) // Set the expected status code
-                    .log().all()    // Log the response details
+                    .statusCode(400)
+                    .log().all()
                     .extract().response().asString();
 
             JsonPath jsonPath = new JsonPath(response);
@@ -47,7 +48,7 @@ public class ContactUs_BackEnd {
 
     public class ContactUsApiTest2 {
 
-        private static final String BASE_URI = "https://your-api-base-uri.com";
+        private static final String BASE_URI = "https://wellfit.com";
 
         @Test
         public void contactUsFormSubmissionTest2() {
